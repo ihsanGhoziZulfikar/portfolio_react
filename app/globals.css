@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  body {
+    @apply leading-loose;
+  }
+}
